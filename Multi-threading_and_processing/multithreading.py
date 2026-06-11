@@ -1,6 +1,7 @@
 #Multi-threading in Python:
 #When to use multi-threading:
-#1. I/O-bound tasks: If your program spends a lot of time waiting for input/output operations (like reading/writing files, network requests), multi-threading can help improve performance by allowing other threads to run while one thread is waiting.
+#1. I/O-bound tasks: If your program spends a lot of time waiting for input/output operations (like reading/writing files, network requests),
+#  multi-threading can help improve performance by allowing other threads to run while one thread is waiting.
 #2. GUI applications: In graphical user interfaces, multi-threading can keep the interface responsive while performing background tasks.
 #3. Concurrent tasks: If you have multiple tasks that can run concurrently (like downloading multiple files), multi-threading can help manage these tasks efficiently.
 #Example of multi-threading in Python using the threading module:
